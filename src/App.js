@@ -1,17 +1,21 @@
-import React from 'react';
-import ProductList from './components/ProductList';
-import ProductForm from './components/ProductForm';
+import React, { useEffect } from 'react';
 
+import Sidebar from './components/Sidebar';
+import Navbar from './components/Navbar';
+import feather from 'feather-icons';
 function App() {
-  const refreshProducts = () => {
-    window.location.reload();
-  };
+  
+  useEffect(() => {
+    feather.replace();
+  }, []);
 
   return (
-    <div>
-      <h1>Warehouse Management</h1>
-      <ProductForm refreshProducts={refreshProducts} />
-      <ProductList />
+    <div className='wrapper'>
+      <Sidebar />
+
+      <div className='main'>
+        <Navbar />
+      </div>
     </div>
   );
 }
