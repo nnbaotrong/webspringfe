@@ -1,35 +1,23 @@
-import React, { useEffect } from 'react';
+import logo from './logo.svg';
+import './App.css';
 
-import Sidebar from './components/Sidebar';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Dashboard from './pages/Dashboard';
-import ProductList from './components/ProductList';
-import ProductForm from './components/ProductForm';
-import feather from 'feather-icons';
 function App() {
-
-  useEffect(() => {
-    feather.replace();
-  }, []);
-
   return (
-    <div className='wrapper'>
-      <Sidebar />
-
-      <div className='main'>
-        <Navbar />
-        <main className="content">
-          <div className="container-fluid p-0">
-            <Dashboard/>
-            <ProductForm/>
-            <ProductList/>
-          </div>
-        </main>
-        <Footer />
-
-      </div>
-
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
