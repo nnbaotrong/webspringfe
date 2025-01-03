@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 function Sidebar() {
     return (
         <nav id="sidebar" className="sidebar js-sidebar">
@@ -51,7 +49,7 @@ function Sidebar() {
 
                     <li className="sidebar-item">
                         <a className="sidebar-link" href="ui-buttons.html">
-                            <i className="align-middle" data-feather="square"></i> <span className="align-middle">Buttons</span>
+                            <i className="align-middle" data-feather="square"></i> <span className="align-middle">Products</span>
                         </a>
                     </li>
 

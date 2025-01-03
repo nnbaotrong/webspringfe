@@ -1,9 +1,7 @@
 import React from 'react';
 
 function Navbar() {
-    
     return (
-
         <nav className="navbar navbar-expand navbar-light navbar-bg">
             <a className="sidebar-toggle js-sidebar-toggle">
                 <i className="hamburger align-self-center"></i>
@@ -92,7 +90,8 @@ function Navbar() {
                                 <a href="#" className="list-group-item">
                                     <div className="row g-0 align-items-center">
                                         <div className="col-2">
-                                            {/* <img src="img/avatars/avatar-5.jpg" className="avatar img-fluid rounded-circle" alt="Vanessa Tucker"> */}
+                                            <img src="adminkit/img/avatars/avatar-5.jpg" className="avatar img-fluid rounded-circle" alt="Vanessa Tucker"/>
+
                                         </div>
                                         <div className="col-10 ps-2">
                                             <div className="text-dark">Vanessa Tucker</div>
@@ -104,7 +103,7 @@ function Navbar() {
                                 <a href="#" className="list-group-item">
                                     <div className="row g-0 align-items-center">
                                         <div className="col-2">
-                                            {/* <img src="img/avatars/avatar-2.jpg" className="avatar img-fluid rounded-circle" alt="William Harris"> */}
+                                            <img src="adminkit/img/avatars/avatar-2.jpg" className="avatar img-fluid rounded-circle" alt="William Harris"/>
                                         </div>
                                         <div className="col-10 ps-2">
                                             <div className="text-dark">William Harris</div>
@@ -116,7 +115,7 @@ function Navbar() {
                                 <a href="#" className="list-group-item">
                                     <div className="row g-0 align-items-center">
                                         <div className="col-2">
-                                            {/* <img src="img/avatars/avatar-4.jpg" className="avatar img-fluid rounded-circle" alt="Christina Mason"> */}
+                                            <img src="adminkit/img/avatars/avatar-4.jpg" className="avatar img-fluid rounded-circle" alt="Christina Mason"/>
                                         </div>
                                         <div className="col-10 ps-2">
                                             <div className="text-dark">Christina Mason</div>
@@ -128,7 +127,7 @@ function Navbar() {
                                 <a href="#" className="list-group-item">
                                     <div className="row g-0 align-items-center">
                                         <div className="col-2">
-                                            {/* <img src="img/avatars/avatar-3.jpg" className="avatar img-fluid rounded-circle" alt="Sharon Lessman"> */}
+                                            <img src="adminkit/img/avatars/avatar-3.jpg" className="avatar img-fluid rounded-circle" alt="Sharon Lessman"/>
                                         </div>
                                         <div className="col-10 ps-2">
                                             <div className="text-dark">Sharon Lessman</div>
@@ -149,7 +148,7 @@ function Navbar() {
                         </a>
 
                         <a className="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
-                            <img src="img/avatars/avatar.jpg" className="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span className="text-dark">Charles Hall</span>
+                            <img src="adminkit/img/avatars/avatar.jpg" className="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span className="text-dark">Charles Hall</span>
                         </a>
                         <div className="dropdown-menu dropdown-menu-end">
                             <a className="dropdown-item" href="pages-profile.html"><i className="align-middle me-1" data-feather="user"></i> Profile</a>
@@ -164,6 +163,7 @@ function Navbar() {
                 </ul>
             </div>
         </nav>
+
 
     );
 
